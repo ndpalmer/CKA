@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: newsa-pod
+spec:
+  serviceAccountName: newsa
+  containers:
+  - name: alpine
+    image: alpine
+    command:
+    - "sleep"
+    - "3600"
