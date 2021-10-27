@@ -1,5 +1,0 @@
-# Ignore security certificates and files
-*.crt
-*.csr
-*.key
-*.pem
